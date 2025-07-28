@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(240, 248, 255);
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.a:hover{
+    color: black;
+    background-color: aqua;
+    font-size: 30px;
+}
+.btn{
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.red{
+    color: blueviolet;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+.img1{
+    border-radius: 50%;
+    border: 3px dashed blueviolet;
+}
+.gray{
+    color: gray;
+}
+.bigger{
+    font-size: 50px;
+}
+.big1{
+    font-size: 35px;
+    color: blueviolet;
+}
+.p1{
+    margin-top: 20px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.btn2{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.btn3{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn2:hover{ transform:translateY(-5px); }
+.btn3:hover{ transform:translateY(-5px); }
+.icons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icon{
+    margin: 20px;
+    color: black;
+    border-radius: 50%;
+    border: 2px dashed blueviolet;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
